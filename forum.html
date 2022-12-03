@@ -1,0 +1,62 @@
+<head>
+  <link href="accueil.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="accueil.html">Accueil</a>
+    <div class="dropdown">
+      <button class="dropbtn">Sections
+      </button>
+      <div class="dropdown-content">
+        <a href="restaurant.html">Les Restaurants</a>
+        <a href="theatre.html">Les Théatres</a>
+        <a href="monument.html">Les Monuments</a>
+        <a href="musee.html">Les Musées</a>
+      </div>
+    </div>
+  </div>
+
+  <center>
+  <h1><u>Vos Propositions Pour des Nouveaux Sites</u></h1>
+  </center>
+
+  <form action="/my-handling-form-page" method="post">
+   <ol>
+    <li>
+      <label for="name"><p>Votre Nom:</p></label>
+      <input type="text" id="name" name="user_name">
+    </li><br>
+    <li>
+      <label for="mail"><p>E-mail:</p></label>
+      <input type="email" id="mail" name="user_email">
+    </li><br>
+    <li>
+      <label for="monument" class="checkLabel">j'aime les monuments:</label>
+      <input id="monument" type="button" value="🤍">
+    </li><br>
+    <li>
+      <label for="restaurant" class="checkLabel">j'aime les restaurant:</label>
+      <input id="restaurant" type="button" value="🤍" >
+  </li><br>
+  <li>
+    <label for="musee" class="checkLabel">j'aime les musée:</label>
+    <input id="musee" type="button" value="🤍" >
+  </li>
+  <li>
+    <label for="lien"><p>Lien:</label>
+    <input type="lien" id="lienn" name="user_lien">
+  </li><br>
+  <li>
+    <label for="msg"><p>Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li><br>
+    <li class="button">
+      <button type="submit">Send your message</button>
+    </li>
+   </ol>
+  </form>
+<br>
+</body>
+
+<script src="forum.js"></script>
