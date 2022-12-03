@@ -1,0 +1,51 @@
+#butondefile1 { float: middle; }
+#butondefile2 { float: middle; }
+#butonfavoris1 { float: left; }
+#butonfavoris2 { float: left; }
+#butonfavoris3 { float: left; }
+#favoris { float: middle; }
+
+h1, h4 { color: #c09966; }
+
+.blanc{
+  color: white;
+}
+
+.noir{
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Le code du popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  top: 35%;
+  left: 7%;
+  margin-right: -10px;
+  z-index: 1;
+}
+
+/* Il toggle le class */
+.popup .show {
+  visibility: visible;
+}

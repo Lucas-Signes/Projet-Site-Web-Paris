@@ -1,0 +1,83 @@
+<head>
+  <title>monument de Paris</title>
+  <link href="accueil.css" rel="stylesheet" type="text/css" />
+  <link href="sections.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="navbar">
+  <a href="accueil.html">Accueil</a>
+  <a href="forum.html">Propositions</a>
+  <div class="dropdown">
+    <button class="dropbtn">Sections
+    </button>
+    <div class="dropdown-content">
+      <a href="restaurant.html">Les Restaurants</a>
+      <a href="theatre.html">Les Théatres</a>
+      <a href="monument.html">Les Monuments</a>
+      <a href="musee.html">Les Musées</a>
+    </div>
+  </div>
+</div><br>
+
+<body>
+    <button id="btncolor" type="button">changer en mode sombre</button> <!-- c'est un bouton pour metre en mode sombre -->
+
+  <head>
+    <center>
+      <h1>
+        Monuments de Paris
+      </h1>
+    </center>
+  </head>
+
+  <ul>
+    <li>
+      <h4>La tour eiffel : </h4><br />
+      <center>
+        <div class="popup" onclick="popupimg()"><img id="lien" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" height="400" width="400" alt="photo de la tour eiffel" class="1" >
+          <span class="popuptext" id="myPopup">Voulez vous la localisation de cet endroit?<br><br><a href="https://www.google.fr/maps/place/Tour+Eiffel/@48.8583736,2.2922926,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813" target="_blank">Cliquez Ici</a></span>
+        </div>
+      </center>
+      <p id="eiffel" class="p"> <!-- texte court avec une id et une classe pour pouvoir la changer -->
+        La tour Eiffel est une tour de fer puddlé de 330 mètres de hauteur (avec antennes) située à Paris, à l’extrémité
+        nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement.
+      </p>
+      <input id="butoneiffel" type="button" value="afficher plus"> <!-- bouton pour changer la valeur du texte -->
+    </li>
+
+
+    <li>
+      <h4>L'arc de triomphe : </h4><br />
+      <center>
+        <div class="popup" onclick="popupimg()"><img src="https://smarty-develop.s3.amazonaws.com/uploads/picture/smArty-Arc_de_Triomphe1_-Dominique_Vautrin.jpg" height="400" width="400" alt="photo de la tour eiffel" class="1">
+          <span class="popuptext" id="myPopup">Voulez vous la localisation de cet endroit?<br><br><a href="https://www.google.fr/maps/place/Arc+de+Triomphe/@48.8737952,2.2928388,17z/data=!4m12!1m6!3m5!1s0x47e66fec70fb1d8f:0xd9b5676e112e643d!2sArc+de+Triomphe!8m2!3d48.873848!4d2.2950682!3m4!1s0x47e66fec70fb1d8f:0xd9b5676e112e643d!8m2!3d48.873848!4d2.2950682" target="_blank">Cliquez Ici</a></span>
+        </div>
+      </center>
+      <p id="arc" class="p">
+        L'arc de triomphe de l’Étoile, souvent appelé simplement l'Arc de Triomphe1, est un monument situé à Paris, en
+        un point haut à la jonction des territoires des 8e, 16e et 17e arrondissements, notamment au sommet de l'avenue
+        des Champs-Élysées et de l'avenue de la Grande-Armée.
+      </p>
+        <input id="butonarc" type="button" value="afficher plus">
+    </li>
+
+
+    <li>
+      <h4>La concorde : </h4><br />
+      <center>
+        <div class="popup" onclick="popupimg()"><img id="lien" src="https://cliophoto.clionautes.org/_data/i/galleries/GEOGRAPHIE/FRANCE/Ile-de-France/Paris/concorde-me.jpg" height="400" width="400" alt="photo de la tour eiffel" class="1">
+          <span class="popuptext" id="myPopup">Voulez vous la localisation de cet endroit?<br><br><a href="https://www.google.com/maps/place/Place+de+la+Concorde/@48.8648451,2.3193199,17z/data=!4m9!1m2!2m1!1sla+concorde!3m5!1s0x47e66fcd61ae0a01:0x18030de10e25ab2c!8m2!3d48.8656331!4d2.3212357!15sCgtsYSBjb25jb3JkZVoNIgtsYSBjb25jb3JkZZIBBXBsYXphmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU00YXkxUVIzZDNSUkFC" target="_blank">Cliquez Ici</a></span>
+        </div>
+      </center>
+      <p id="concorde" class="p">
+        La place de la Concorde, qui s’étend sur 8,64 hectares, est la plus grande place de Paris. Le nom aurait été
+        choisi par le Directoire pour marquer la réconciliation des Français après les excès de la Terreur.
+      </p>
+        <input id="butonconcorde" type="button" value="afficher plus">
+    </li>
+  </ul>
+
+  <script src="monument.js"></script>
+</body>
+
+<input type="checkbox" name="cb" value="true">
